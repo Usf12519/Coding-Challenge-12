@@ -48,6 +48,17 @@
  if (!drawing) return;
  });
 
+ // Task 4: Add Color Selection and Canvas Clearing
+
+ tools.foreach((toolOption)) => {
+    toolOption.addEventListener('change' , (e) => {
+        tool = e.target.value;
+    });
+ };
+
+ clearButton.addEventListener('click' , () => {
+ };
+
 
     
 
