@@ -40,6 +40,15 @@
     canvas.addEventListener('mousedown' , () => {
         drawing = false
      });
+
+  // Task 3: Implement Shape Drawing Logic
+
+  canvas.addEventListener('mousemove' , (e) => {
+    drawing = true;
+ if (!drawing) return;
+ });
+
+
     
 
 
