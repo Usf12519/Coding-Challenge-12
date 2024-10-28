@@ -23,3 +23,29 @@
 
 <button id="clearcanvas">Clear Canvas</button>
 
+// Task 2: Configure the JavaScript for Drawing Content
+
+<canvas id="drawingCanvas" width="700" height="300"></canvas>
+
+<script>
+    const canvas = document.getElementByID('drawingCanvas');
+    const ctx = canvas.getContext('2d');
+    const colorInput = document.getElementByID('color');
+    const clearButton = document.getElementByID('clearCanvas');
+
+    canvas.addEventListener('mouseup' , (e) => {
+        drawing = true;
+    });
+    
+    canvas.addEventListener('mousedown' , () => {
+        drawing = false
+     });
+    
+
+
+
+
+
+
+
+
